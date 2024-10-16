@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fisioterapia em Casa - Agende Agora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Cuide da sua saúde no conforto de casa!</h1>
+    <p>Avaliação gratuita e atendimento especializado em fisioterapia.</p>
+    <a href="#contato" class="cta-btn">Agende sua consulta</a>
+  </header>
+
+  <section class="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="servico">
+      <h3>Ortopedia</h3>
+      <p>Recuperação de lesões e cirurgias.</p>
+    </div>
+    <div class="servico">
+      <h3>Cardiologia</h3>
+      <p>Reabilitação cardíaca e melhora da capacidade física.</p>
+    </div>
+    <div class="servico">
+      <h3>Pneumologia</h3>
+      <p>Tratamento de doenças respiratórias e distúrbios do sono.</p>
+    </div>
+  </section>
+
+  <section class="depoimentos">
+    <h2>O que dizem nossos pacientes</h2>
+    <blockquote>"O atendimento foi excelente e a recuperação mais rápida do que eu esperava!"</blockquote>
+    <p>- Maria Silva</p>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Agende sua Avaliação</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="_replyto" placeholder="Seu e-mail" required>
+      <input type="tel" name="phone" placeholder="Seu telefone">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>Atendimento domiciliar | Fisioterapia em Ortopedia, Cardiologia e Pneumologia</p>
+    <p>Contato: (99) 99999-9999 | <a href="https://wa.me/YOUR_PHONE_NUMBER">WhatsApp</a></p>
+  </footer>
+</body>
+</html>
